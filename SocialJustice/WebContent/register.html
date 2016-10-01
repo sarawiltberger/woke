@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!--  personal css by michelle -->
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<title>Woke - join</title>
+</head>
+
+<body>
+<div class="container main-container" id="join-container">
+	<h1 id="join-title">woke</h1>
+	<div id="signup-container"></div>
+	<div class="form-center">
+		<h2 class="form-title">join the community</h2>
+		<form action="register.jsp" method="post" role="form" class="form-signup">
+			<div class="form-group">
+				<input type="text" name="fname" placeholder="first name" /> 
+			</div>
+			<div class="form-group">
+				<input type="text" name="lname" placeholder="last name" /> 
+			</div>
+			<div class="form-group">
+				<select name="college">
+					<option value="college" selected>college</option>
+					<option value="Babson College">Babson College</option>
+					<option value="Lewis and Clark College">Lewis and Clark College</option>
+					<option value="New York University">New York University</option>
+					<option value="Purdue University">Purdue University</option>
+					<option value="Santa Clara University">Santa Clara University</option>
+					<option value="Southern Methodist University">Southern Methodist University</option>
+					<option value="University of California Los Angeles">University of California Los Angeles</option>
+					<option value="University of Michigan">University of Michigan</option>
+					<option value="University of San Diego">University of San Diego</option>
+					<option value="University of Southern California">University of Southern California</option>
+					<option value="Vanderbilt University">Vanderbilt University</option>
+				</select>
+				<!--  <input type="text" name="college" placeholder="college"/>-->
+			</div>
+			<div class="form-group">
+				<input type="number" name="gradyear" placeholder="grad year"/>
+			</div>
+			<div class="form-group">
+				<input type="text" name="email" placeholder="student email address"/>
+			</div>
+			<div class="form-group">
+				<input type="password" name="pwd" placeholder="password"/>
+			</div>
+			<button class="btn btn-large" type="submit">join</button>
+		</form>
+		<a href="index.html" class="landing-link">return to home</a>
+	</div>
+</div>
+</body>
+</html>

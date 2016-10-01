@@ -1,0 +1,9 @@
+Currently, we run Glassfish as a local server and our project accesses a 
+database that is saved in a digital ocean droplet. There is a lot of garbage testing data in the 
+database that we will get rid of later. To our knowledge everything works; however, the follow/support
+buttons are inefficient and could be handled better.
+We went to also host the entire project on digital ocean but were unable to figure that out and could use
+some help with that if you know how to
+
+Sincerely,
+cs201ballers (aka Team 14)
